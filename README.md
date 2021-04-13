@@ -4,25 +4,21 @@ Here you can calculate anything you want without going in sn actual calculator.
 
 
 
-
-
-
-
-
-
-
-
 using System;
+
 
 namespace Calculator
 {
-    class Program
+   class Program
     {
-        static void Main(string[] args)
+   
+   static void Main(string[] args)
         {
+        
+        
             Console.Write("Enter a number: ");
             double num1 = Convert.ToDouble(Console.ReadLine());
-
+            
             Console.Write("Enter Operator: ");
             string op = Console.ReadLine();
 
