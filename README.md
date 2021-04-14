@@ -22,7 +22,7 @@ namespace Calculator
             Console.Write("Enter Operator: ");
             string op = Console.ReadLine();
 
-            Console.Write("Enter a number: ");
+            Console.Write("Enter another number: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
 
             if (op == "+")
